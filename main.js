@@ -90,18 +90,28 @@ function avaliarResposta(){
    let nivel;
 
    if(pontos >=90){
-    nivel = "Invertor de idéias"
+    nivel = "Invertor de idéias";
    }
 
    else if(pontos >=60){
-    nivel = "Desenvolvedor de idéias"
+    nivel = "Desenvolvedor de idéias";
    }
 
    else if(pontos >=30){
-    nivel = "Explorador de idéias"
+    nivel = "Explorador de idéias";
    }
 
   else{ 
-    nivel = "Pesquisador iniciante"
+    nivel = "Pesquisador iniciante";
    }
+
+   //relatório final
+   document.getElementById("resultado").innerHTML =
+   `<h2>caminho das habilidades = Relatório</h2>
+   <p><strong> Participante:  </strong>${nome}</p>
+   <p><strong> Desafio:  </strong>${textoDesafio}</p>
+   <p><strong> Resposta:  </strong>${resposta}</p>
+   <p><strong> Pontuação:  </strong>${pontos}</p>
+   <p><strong> Nivel:  </strong>${nivel}</p>
+   <p> O tempo de espera do progeto é:  ${tempo}</p>`
 }
