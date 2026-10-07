@@ -76,4 +76,11 @@ button:active{
     font-size: 24px;
     font-family: "shere teach", sans-serif;
 }
-
+textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
