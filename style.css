@@ -1,1 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+body{
+    background: linear-gradient(135deg, #d5883a, #a44fcf);
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 25px;
+
+}
+
+h1{
+    color: #5a137d;
+    font-size: 30px;
+}
+
+label{
+    display: block;
+    margin: 20px;
+    font-weight: bolder;
+    color: rgb(48, 47, 47);
+    margin-bottom: 10px;
+
+}
+button{
+    border: 2px solid rgb(80, 40, 107);
+    box-shadow: 0 5px 15px rosybrown;
+    border-radius: 5px;
+    background-color: rgb(16, 179, 116);
+    color: rgb(2, 34, 67);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 8px 18px rgb(98, 141, 177);
+
+}
