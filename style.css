@@ -59,3 +59,21 @@ button:hover{
     box-shadow: 8px 18px rgb(98, 141, 177);
 
 }
+button:active{
+    transform: scale(0.9);
+}
+#resultado{
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 5px;
+    animation: aparecer 0.5s ease;
+}
+#resultado h2{
+    padding: 10px;
+}
+#resultado h3{
+    color: #a65708 ;
+    font-size: 24px;
+    font-family: "shere teach", sans-serif;
+}
+
